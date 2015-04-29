@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no" />
+        <title>Wireless Biomedical Signal Chain</title>
+        <script src="js/jquery.min.js"></script>
+        <script src="cordova.js"></script>
+        <script src="js/highcharts.js"></script>
+        <script src="js/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/topcoat-mobile-dark.min.css">
+
+
+
+
+
+    </head>
+    <body>
+
+        <div class="topcoat-navigation-bar">
+            <div class="topcoat-navigation-bar__item center">
+                <h1 class="topcoat-navigation-bar__title">Heartrate</h1>
+            </div>
+            <div id="disconnect" class="topcoat-navigation-bar__item" style="padding-top: 7.5px; text-align: center; float:right;">
+                <button class="topcoat-button" id="disconnectButton">
+                Disconnect</button>
+            </div>
+            <div id="refresh" style="padding-top: 7.5px; text-align: center; float:right;">
+                <button class="topcoat-button" id="refreshButton">
+                Refresh</button>
+            </div>
+        </div>
+        <div class="app">
+
+            <div id="mainPage">
+                <div class="topcoat-list">
+                    <h3 class="topcoat-list__header">Devices</h3>
+                    <ul class="topcoat-list__container" id="deviceList">
+                    </ul>
+                </div>
+            </div>
+            <div id="detailPage">
+            <div id="container" style="min-width: 600px; height: 270px; margin: 0 auto"></div>
+
+                <div id="container" style="height: 500px; min-width: 500px"></div>
+<script type="text/javascript">
+     $(document).ready(function () {
+        Highcharts.setOptions({
+            global: {
+                useUTC: false
+            }
+        });
+});
+            app.initialize();
+        </script>
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
