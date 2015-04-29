@@ -2,7 +2,6 @@
 #Wireless Biomedical Signal Chain
 
 Contributors:
-==============
 - Long Nguyen
 - Robert Perry
 - Lou Seneres
