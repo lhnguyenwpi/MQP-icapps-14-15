@@ -1,4 +1,16 @@
-## SensorTag
+# Worcester Polytechnic Institute: Major Qualifying Project
+#Wireless Biomedical Signal Chain
+
+Contributors:
+==============
+- Long Nguyen
+- Robert Perry
+- Lou Seneres
+- Neda Seyedmahmoud
+- Professor John McNeill, *MQP Advisor*
+
+SensorTag
+=======
 
 Interact with the [TI SensorTag](http://www.ti.com/tool/cc2541dk-sensor)
 
